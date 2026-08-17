@@ -4,6 +4,8 @@
 
 I build reliable backend systems, API integrations and workflow automation with Python.
 
+**Portfolio:** https://artyom129.github.io/
+
 **Main stack:** Python • FastAPI • REST APIs • Webhooks • SQL • PostgreSQL • Docker • AI Integrations
 
 ## Featured Projects
@@ -24,6 +26,8 @@ FastAPI-based system for receiving, validating, forwarding, retrying and monitor
 https://github.com/artyom129/api-webhook-reliability-monitor
 
 ## Connect
+
+Portfolio: https://artyom129.github.io/
 
 LinkedIn: https://www.linkedin.com/in/artyom-python-automation/
 
