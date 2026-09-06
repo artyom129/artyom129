@@ -10,20 +10,26 @@ I build reliable backend systems, API integrations and workflow automation with 
 
 ## Featured Projects
 
-### RelayDesk AI
-AI-powered business automation platform with FastAPI, webhooks, CRM integrations and workflow reliability.
+### Backplane
+Operations control plane for APIs, webhooks and background automation.
 
-https://github.com/artyom129/RelayDesk-AI-Business-Automation-AI-Integration-Platform
+FastAPI • React • PostgreSQL • Redis • Docker
 
-### OpsWeave
-Workflow orchestration and automation platform with retries, DLQ, webhooks, scheduling and monitoring.
+https://github.com/artyom129/backplane
 
-https://github.com/artyom129/opsweave
+### QueueForge
+Reliable distributed background job processing platform focused on delivery semantics, retries, idempotency and failure recovery.
 
-### API & Webhook Reliability Monitor
-FastAPI-based system for receiving, validating, forwarding, retrying and monitoring webhooks.
+FastAPI • PostgreSQL • Redis • Workers • Retries • DLQ
 
-https://github.com/artyom129/api-webhook-reliability-monitor
+https://github.com/artyom129/queueforge
+
+### TenantForge
+Production-style multi-tenant SaaS backend with authentication, RBAC, API keys, quotas and billing webhooks.
+
+FastAPI • PostgreSQL • Redis • JWT • RBAC • API Keys
+
+https://github.com/artyom129/tenantforge
 
 ## Connect
 
