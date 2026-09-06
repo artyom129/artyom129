@@ -1,5 +1,7 @@
 # Artyom Koncha
 
+**English** | [Русский](README_RU.md)
+
 ### Python Backend & Automation Developer
 
 I build reliable backend systems, API integrations and workflow automation with Python.
