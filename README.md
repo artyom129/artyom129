@@ -4,52 +4,49 @@
 
 ### Python Backend & Automation Developer
 
-Building reliable APIs, integrations and automation systems with Python.
+Reliable APIs • Webhooks • Background Jobs • SaaS Backends • AI Integrations
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-111111?style=for-the-badge&logo=googlechrome&logoColor=white)](https://artyom129.github.io/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/artyom-python-automation/)
-[![GitHub](https://img.shields.io/badge/GitHub-artyom129-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/artyom129)
-
-### Tech Stack
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-
-**FastAPI • REST APIs • Webhooks • PostgreSQL • Redis • Docker • AI Integrations**
+[Portfolio](https://artyom129.github.io/) · [LinkedIn](https://www.linkedin.com/in/artyom-python-automation/) · [Email](mailto:artyom129.x@gmail.com)
 
 </div>
 
----
+## Stack
 
-## Featured Projects
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+## Selected Projects
 
 ### [Backplane](https://github.com/artyom129/backplane)
-Operations control plane for APIs, webhooks and background automation.
+Operations control plane for APIs, webhooks, background jobs and incidents.
 
-FastAPI • React • PostgreSQL • Redis • Docker
+`FastAPI` `React` `PostgreSQL` `Redis` `Docker`
 
 ### [QueueForge](https://github.com/artyom129/queueforge)
-Reliable distributed background job processing platform focused on delivery semantics, retries, idempotency and failure recovery.
+Distributed background job platform built around reliable delivery, retries, idempotency and failure recovery.
 
-FastAPI • PostgreSQL • Redis • Workers • Retries • DLQ
+`FastAPI` `PostgreSQL` `Redis` `Workers` `Prometheus` `Docker`
 
 ### [TenantForge](https://github.com/artyom129/tenantforge)
-Production-style multi-tenant SaaS backend with authentication, RBAC, API keys, quotas and billing webhooks.
+Multi-tenant SaaS backend foundation with authentication, RBAC, API keys, quotas and billing webhooks.
 
-FastAPI • PostgreSQL • Redis • JWT • RBAC • API Keys
+`FastAPI` `PostgreSQL` `Redis` `JWT` `RBAC` `Docker`
 
-## Connect
+## Engineering Focus
 
-Portfolio: https://artyom129.github.io/
-
-LinkedIn: https://www.linkedin.com/in/artyom-python-automation/
-
-GitHub: https://github.com/artyom129
+- **Reliable automation** — webhooks, retries, idempotency, queues and dead-letter handling
+- **Backend systems** — REST APIs, async workflows, PostgreSQL and Redis
+- **SaaS architecture** — authentication, RBAC, tenant isolation, API keys and quotas
+- **Integrations** — external APIs, automation workflows and AI-enabled backend features
 
 ---
 
-Python Backend • FastAPI • API Integration • Webhooks • Automation • AI Integration
+<div align="center">
+
+Available for project-based Python backend and automation work.
+
+</div>
