@@ -37,14 +37,44 @@ I'm Artyom, based in Kazakhstan, and I take on project-based Python backend and 
 
 <table>
   <tr>
-    <td width="33%" valign="top"><a href="https://github.com/artyom129/syncproof"><img src="https://raw.githubusercontent.com/artyom129/syncproof/main/docs/screenshots/run.png" alt="SyncProof run page"></a><br><sub><a href="https://github.com/artyom129/syncproof">SyncProof</a> compares a migration record by record. On a 1,200-customer test it found 65 changed records, 40 renamed IDs, 25 missing, 3 repeated and 12 extra.</sub></td>
-    <td width="33%" valign="top"><a href="https://github.com/artyom129/opsweave"><img src="https://raw.githubusercontent.com/artyom129/opsweave/main/docs/screenshots/workflow.png" alt="OpsWeave workflow graph"></a><br><sub><a href="https://github.com/artyom129/opsweave">OpsWeave</a> draws the path the last run took through the workflow. Skipped branches are dashed, failed payloads wait for a one-time replay.</sub></td>
-    <td width="33%" valign="top"><a href="https://github.com/artyom129/invoice-document-automation-dashboard"><img src="https://raw.githubusercontent.com/artyom129/invoice-document-automation-dashboard/main/docs/screenshots/review.jpg" alt="Invoice review queue"></a><br><sub><a href="https://github.com/artyom129/invoice-document-automation-dashboard">Invoice dashboard</a> reads invoice data from PDFs and queues the uncertain ones for review. 110 tests.</sub></td>
+    <td width="33%" valign="top">
+      <a href="https://github.com/artyom129/syncproof"><img src="https://raw.githubusercontent.com/artyom129/artyom129/main/assets/syncproof.jpg" alt="SyncProof screenshot" width="100%"></a>
+      <br><b><a href="https://github.com/artyom129/syncproof">SyncProof</a></b><br>
+      Verdict on a data migration, record by record. Found all 65 planted changes in a test.<br>
+      <sub>FastAPI · SQLite · 27 tests</sub>
+    </td>
+    <td width="33%" valign="top">
+      <a href="https://github.com/artyom129/opsweave"><img src="https://raw.githubusercontent.com/artyom129/artyom129/main/assets/opsweave.jpg" alt="OpsWeave screenshot" width="100%"></a>
+      <br><b><a href="https://github.com/artyom129/opsweave">OpsWeave</a></b><br>
+      Workflow engine with step history, retries and failed runs you can replay once.<br>
+      <sub>FastAPI · SQLite · 17 tests</sub>
+    </td>
+    <td width="33%" valign="top">
+      <a href="https://github.com/artyom129/invoice-document-automation-dashboard"><img src="https://raw.githubusercontent.com/artyom129/artyom129/main/assets/invoice.jpg" alt="Invoice dashboard screenshot" width="100%"></a>
+      <br><b><a href="https://github.com/artyom129/invoice-document-automation-dashboard">Invoice dashboard</a></b><br>
+      Reads invoice data from PDFs and queues the uncertain ones for review.<br>
+      <sub>FastAPI · PDF · 110 tests</sub>
+    </td>
   </tr>
   <tr>
-    <td width="33%" valign="top"><a href="https://github.com/artyom129/leadsignal-hq"><img src="https://raw.githubusercontent.com/artyom129/leadsignal-hq/main/docs/screenshots/board.png" alt="LeadSignal HQ lead board"></a><br><sub><a href="https://github.com/artyom129/leadsignal-hq">LeadSignal HQ</a> scores leads, routes them by keywords and tracks SLA deadlines. 63 tests.</sub></td>
-    <td width="33%" valign="top"><a href="https://github.com/artyom129/logpulse-sentinel"><img src="https://raw.githubusercontent.com/artyom129/logpulse-sentinel/main/docs/screenshots/incidents.png" alt="LogPulse incident list"></a><br><sub><a href="https://github.com/artyom129/logpulse-sentinel">LogPulse Sentinel</a> groups noisy log lines into incidents. On the demo logs, 68 events become 6 incidents.</sub></td>
-    <td width="33%" valign="top"><a href="https://github.com/artyom129/fullstack-poker"><img src="https://raw.githubusercontent.com/artyom129/fullstack-poker/main/docs/screenshots/table.png" alt="Poker table"></a><br><sub><a href="https://github.com/artyom129/fullstack-poker">Fullstack Poker</a> is a Hold'em table with side pots and a showdown breakdown. 34 backend, 29 frontend and 3 end-to-end tests.</sub></td>
+    <td width="33%" valign="top">
+      <a href="https://github.com/artyom129/leadsignal-hq"><img src="https://raw.githubusercontent.com/artyom129/artyom129/main/assets/leadsignal.jpg" alt="LeadSignal HQ screenshot" width="100%"></a>
+      <br><b><a href="https://github.com/artyom129/leadsignal-hq">LeadSignal HQ</a></b><br>
+      Scores leads, routes them by keywords and tracks SLA deadlines.<br>
+      <sub>Python · 63 tests</sub>
+    </td>
+    <td width="33%" valign="top">
+      <a href="https://github.com/artyom129/logpulse-sentinel"><img src="https://raw.githubusercontent.com/artyom129/artyom129/main/assets/logpulse.jpg" alt="LogPulse Sentinel screenshot" width="100%"></a>
+      <br><b><a href="https://github.com/artyom129/logpulse-sentinel">LogPulse Sentinel</a></b><br>
+      Groups noisy log lines into incidents. On the demo logs, 68 events become 6.<br>
+      <sub>Python · 34 tests</sub>
+    </td>
+    <td width="33%" valign="top">
+      <a href="https://github.com/artyom129/fullstack-poker"><img src="https://raw.githubusercontent.com/artyom129/artyom129/main/assets/poker.jpg" alt="Fullstack Poker screenshot" width="100%"></a>
+      <br><b><a href="https://github.com/artyom129/fullstack-poker">Fullstack Poker</a></b><br>
+      Hold'em table with side pots and a showdown breakdown.<br>
+      <sub>Next.js · FastAPI · 66 tests</sub>
+    </td>
   </tr>
 </table>
 
@@ -52,7 +82,7 @@ Test counts for the other main projects: TenantForge 128, SlotBridge 121, QueueF
 
 ## How a project goes
 
-1. You describe the task. Three lines are enough: what the system does, what goes wrong, and the deadline. [This link](mailto:artyom129.x@gmail.com?subject=Project%20estimate&body=Hi%20Artyom%2C%0A%0A1.%20What%20the%20system%20does%3A%0A2.%20What%20goes%20wrong%20or%20what%20you%20need%3A%0A3.%20Deadline%3A%0A%0AThanks) opens an email with those three questions ready.
+1. You describe the task. Three lines are enough: what the system does, what goes wrong, and the deadline.
 2. I reply with a price and a timeline for that task.
 3. If there is existing code, I read it first and write tests around the parts I will touch.
 4. I build the work with tests and CI, and show you a version you can run.
