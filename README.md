@@ -4,9 +4,9 @@
 
 ### Python backend and automation developer
 
-Webhooks, queues, integrations and data pipelines that keep working when something upstream breaks, and say so clearly when they can't.
+I build webhooks, queues, integrations and data pipelines that recover from failures on their own, and show you exactly what happened when they can't.
 
-[Get an estimate](mailto:artyom129.x@gmail.com?subject=Project%20estimate) · [Telegram](https://t.me/arttyism) · [LinkedIn](https://www.linkedin.com/in/artyom-python-automation/) · [Portfolio site](https://artyom129.github.io/)
+[**Send me your task**](mailto:artyom129.x@gmail.com?subject=Project%20estimate&body=Hi%20Artyom%2C%0A%0A1.%20What%20the%20system%20does%3A%0A2.%20What%20goes%20wrong%20or%20what%20you%20need%3A%0A3.%20Deadline%3A%0A%0AThanks) · [Telegram](https://t.me/arttyism) · [LinkedIn](https://www.linkedin.com/in/artyom-python-automation/) · [Portfolio site](https://artyom129.github.io/)
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
@@ -20,18 +20,18 @@ Webhooks, queues, integrations and data pipelines that keep working when somethi
 
 </div>
 
-I'm Artyom, based in Kazakhstan. I take on project-based Python backend and automation work. Below is what I build, with screenshots and numbers from projects you can open and run.
+I'm Artyom, based in Kazakhstan, and I take on project-based Python backend and automation work. Everything below is public: open a project, read the code, run it, check the tests.
 
-## What I build
+## Which of these is your problem?
 
-| If you have this problem | I deliver | Open an example |
+| You are dealing with | After the project | Open an example |
 |---|---|---|
-| Webhooks and integrations fail without anyone noticing | Intake with signature checks, retries, replay and a dead-letter queue. Nothing is lost and every failure is visible | [Backplane](https://github.com/artyom129/backplane), [api-webhook-reliability-monitor](https://github.com/artyom129/api-webhook-reliability-monitor) |
-| Background jobs get stuck or run twice | A job system with retries, idempotency keys, schedules and recovery after a crash | [QueueForge](https://github.com/artyom129/queueforge), [OpsWeave](https://github.com/artyom129/opsweave) |
-| Your SaaS needs accounts, plans and limits | A multi-tenant backend with login, roles, API keys, quotas, billing webhooks and an audit log | [TenantForge](https://github.com/artyom129/tenantforge), [CohortSwitch](https://github.com/artyom129/CohortSwitch) |
-| A data migration or import has to be right | A check that compares both sides record by record and returns a verdict, a report and a patch plan | [SyncProof](https://github.com/artyom129/syncproof), [DataDrop-Guardian](https://github.com/artyom129/DataDrop-Guardian) |
-| Your team does the same work by hand in spreadsheets, PDFs and a CRM | Automation that cleans, validates and routes the data, with a dashboard your team can use | [Invoice dashboard](https://github.com/artyom129/invoice-document-automation-dashboard), [LeadSignal HQ](https://github.com/artyom129/leadsignal-hq), [RelayDesk](https://github.com/artyom129/RelayDesk-AI-Business-Automation-AI-Integration-Platform) |
-| You run a booking or scheduling product | A backend with conflict detection and a mobile client, deployed and running | [SlotBridge](https://github.com/artyom129/SlotBridge) |
+| Webhooks and integrations that fail without anyone noticing | Every event is stored, retried and replayable. A failure shows up on a dashboard instead of in a customer complaint | [Backplane](https://github.com/artyom129/backplane), [api-webhook-reliability-monitor](https://github.com/artyom129/api-webhook-reliability-monitor) |
+| Background jobs that get stuck or run twice | Duplicate jobs are blocked, failed ones retry on their own, and the queue recovers after a crash | [QueueForge](https://github.com/artyom129/queueforge), [OpsWeave](https://github.com/artyom129/opsweave) |
+| A SaaS that needs accounts, plans and limits | Login, roles, API keys, quotas, billing webhooks and an audit log are in place and tested | [TenantForge](https://github.com/artyom129/tenantforge), [CohortSwitch](https://github.com/artyom129/CohortSwitch) |
+| A data migration or import that has to be right | You get a verdict, a report and a patch plan instead of a row count and a hope | [SyncProof](https://github.com/artyom129/syncproof), [DataDrop-Guardian](https://github.com/artyom129/DataDrop-Guardian) |
+| Your team doing the same work by hand in spreadsheets, PDFs and a CRM | The data is cleaned, validated and routed automatically, and your team works from one dashboard | [Invoice dashboard](https://github.com/artyom129/invoice-document-automation-dashboard), [LeadSignal HQ](https://github.com/artyom129/leadsignal-hq), [RelayDesk](https://github.com/artyom129/RelayDesk-AI-Business-Automation-AI-Integration-Platform) |
+| A booking or scheduling product | Conflicts are caught before they reach a customer, with a mobile client on top | [SlotBridge](https://github.com/artyom129/SlotBridge) |
 
 ## Work you can open
 
@@ -48,11 +48,11 @@ I'm Artyom, based in Kazakhstan. I take on project-based Python backend and auto
   </tr>
 </table>
 
-Test counts for the other main projects: TenantForge 128, SlotBridge 121, QueueForge 40, CohortSwitch 56, SyncProof 27. Each of them runs in CI on every push.
+Test counts for the other main projects: TenantForge 128, SlotBridge 121, QueueForge 40, CohortSwitch 56, SyncProof 27. Each of them runs in CI on every push, and the latest runs are green.
 
 ## How a project goes
 
-1. You describe the task. A few lines are enough.
+1. You describe the task. Three lines are enough: what the system does, what goes wrong, and the deadline. [This link](mailto:artyom129.x@gmail.com?subject=Project%20estimate&body=Hi%20Artyom%2C%0A%0A1.%20What%20the%20system%20does%3A%0A2.%20What%20goes%20wrong%20or%20what%20you%20need%3A%0A3.%20Deadline%3A%0A%0AThanks) opens an email with those three questions ready.
 2. I reply with a price and a timeline for that task.
 3. If there is existing code, I read it first and write tests around the parts I will touch.
 4. I build the work with tests and CI, and show you a version you can run.
@@ -60,7 +60,35 @@ Test counts for the other main projects: TenantForge 128, SlotBridge 121, QueueF
 
 Security checks are part of the build: outbound request limits, signed callbacks, encrypted secrets, hashed API keys and CSV exports that are safe to open in Excel.
 
-The READMEs of the main projects are in English, Russian and Kazakh.
+## Questions people ask
+
+<details>
+<summary>How much does it cost?</summary>
+
+I price each task separately. Describe it and I reply with a price and a timeline.
+
+</details>
+
+<details>
+<summary>Can you work with code that already exists?</summary>
+
+Yes. I start by reading it and writing tests around the parts I will change, so a fix does not break something that worked.
+
+</details>
+
+<details>
+<summary>What do I have at the end?</summary>
+
+Working code in your repository, tests that run in CI, a README with run instructions, and notes on what the system does when a dependency fails.
+
+</details>
+
+<details>
+<summary>Can I check your work before writing to you?</summary>
+
+Yes, that is why every project above is public. Each has a README, screenshots and a test suite you can run yourself. The main READMEs are in English, Russian and Kazakh.
+
+</details>
 
 ---
 
@@ -68,8 +96,8 @@ The READMEs of the main projects are in English, Russian and Kazakh.
 
 ### Have a task like one of these?
 
-Describe it and I will send a price and a timeline.
+Send three lines and I will reply with a price and a timeline.
 
-[artyom129.x@gmail.com](mailto:artyom129.x@gmail.com?subject=Project%20estimate) · [Telegram @arttyism](https://t.me/arttyism)
+[**Send me your task**](mailto:artyom129.x@gmail.com?subject=Project%20estimate&body=Hi%20Artyom%2C%0A%0A1.%20What%20the%20system%20does%3A%0A2.%20What%20goes%20wrong%20or%20what%20you%20need%3A%0A3.%20Deadline%3A%0A%0AThanks) · [Telegram @arttyism](https://t.me/arttyism)
 
 </div>
